@@ -45,7 +45,6 @@ img {
 
 @media (max-width: 480px) {  
     #whole {
-        display: block;
         position: relative;
         margin-top: 100px;
     }
