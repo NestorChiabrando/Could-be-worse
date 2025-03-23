@@ -61,20 +61,20 @@ img {
     }
     .first {
         width: 100%;
-        display: block;
+        flex: auto;
         text-align: justify;
         margin-left: 130px;
         margin-bottom: 100px;
     }
     .second {
         width: 100%;
-        display: block;
+        flex: auto;
         text-align: justify;
         margin-left: 60px;
         margin-bottom: 100px;
     }
     .third {
-        display: block;
+        flex: auto;
         width: 100%;
         right: 87%;
     }
