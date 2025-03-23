@@ -43,9 +43,12 @@ img {
     top: -100px;
 }
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .main {
         display: flex;
+    }
+    #whole {
+        margin-top: 100px;
     }
     h1 {
         width: 100%;
