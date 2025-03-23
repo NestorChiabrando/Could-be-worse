@@ -43,10 +43,9 @@ img {
     top: -100px;
 }
 
-@media (max-width: 480px) {  
-    #whole {
-        position: relative;
-        margin-top: 100px;
+@media (max-width: 480px) {
+    .main {
+        display: flex;
     }
     h1 {
         width: 100%;
@@ -62,18 +61,18 @@ img {
     }
     .first {
         width: 100%;
-        display: inline-block;
+        display: block;
         text-align: justify;
         margin-left: 130px;
     }
     .second {
         width: 100%;
-        display: inline-block;
+        display: block;
         text-align: justify;
         margin-left: 60px;
     }
     .third {
-        display: inline-block;
+        display: block;
         width: 100%;
         right: 87%;
     }
