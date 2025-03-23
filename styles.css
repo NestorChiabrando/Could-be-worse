@@ -64,18 +64,19 @@ img {
         display: block;
         text-align: justify;
         margin-left: 130px;
-        margin-bottom: 30px;
+        margin: 30px;
     }
     .second {
         width: 100%;
         display: block;
         text-align: justify;
         margin-left: 60px;
-        margin-bottom: 30px;
+        margin: 30px;
     }
     .third {
         display: block;
         width: 100%;
         right: 87%;
+        margin: 30px;
     }
 }
