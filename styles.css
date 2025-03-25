@@ -5,50 +5,41 @@ h1{
     font-family: "Oswald", sans-serif;
     font-size: 75pt;
     color: rgb(255, 255, 255);
+    margin: 0px;
 }
 h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30pt;
     color: rgb(255, 255, 255);
+    margin: 0px;
 }
 span {
     color: rgb(143, 0, 0);
 }
-#whole {
-    display: block;
-    position: relative;
-    margin-top: 4.5%;
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .first {
-    display: block;
-    position: relative;
-    margin-left: 33%;
-    margin-top: -90px;
+    text-align: center;
 }
 .second {
-    display: block;
-    position: relative;
-    top: -75px;
-    margin-left: 35%;
+    text-align: center;
 }
 img {
-    width: 750px;
-    border: 10px solid red
+    width: 700px;
+    border: 10px solid red;
+    margin-top: 10px;
 }
 .third {
-    display: block;
-    position: relative;
-    margin-left: 560px;
-    top: -100px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px){
     .main {
         display: flex;
-    }
-    #whole {
-        margin-top: 100px;
     }
     h1 {
         width: 100%;
@@ -64,21 +55,11 @@ img {
     }
     .first {
         width: 100%;
-        flex: auto;
-        text-align: justify;
-        margin-left: 130px;
-        margin-bottom: 100px;
     }
     .second {
         width: 100%;
-        flex: auto;
-        text-align: justify;
-        margin-left: 60px;
-        margin-bottom: 100px;
     }
     .third {
-        flex: auto;
         width: 100%;
-        right: 87%;
     }
 }
